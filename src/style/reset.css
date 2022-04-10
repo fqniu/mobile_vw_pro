@@ -1,0 +1,143 @@
+@charset "utf-8";
+html {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+  /* 清除点击高亮效果 */
+  -webkit-touch-callout: none;
+  /*系统默认菜单被禁用*/
+  -webkit-user-select: none;
+  /*webkit浏览器*/
+  -khtml-user-select: none;
+  /*早期浏览器*/
+  -moz-user-select: none;
+  /*火狐*/
+  -ms-user-select: none;
+  /*IE10*/
+  user-select: none;
+}
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+label {
+  font-weight: 700;
+}
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+dl,
+dt,
+dd,
+ol,
+form,
+input,
+textarea,
+th,
+td,
+select {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+#app {
+  height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+div:focus {
+  outline: none;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+input,
+textarea {
+  outline: none;
+  border: none;
+}
+textarea {
+  resize: none;
+  overflow: auto;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+input,
+textarea {
+  outline: none;
+  border: none;
+  resize: none;
+  -webkit-appearance: none;
+  -webkit-user-select: auto;
+  /*webkit浏览器*/
+  user-select: auto;
+}
+body {
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
